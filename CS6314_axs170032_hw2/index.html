@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,XHTML,JavaScript">
+    <meta name="description" content="Personal Webpage">
+    <meta name="author" content="Amandeep Singh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <link rel="stylesheet" href="css/firststyle.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./javaScript/script.js"></script>
+    <title>Amandeep Signh</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="name">Amandeep Singh</h1>
+    </header>
+    <div id="nav">
+        <nav>
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#experience">Experience</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#Interests">Interests</a> |
+            <a href="#Contact">Contact</a> |
+            <a href="table.html" target="_blank">Homework Part 2</a>
+        </nav>
+    </div>
+    <section>
+        <article id="summary">
+            <h2 class="underline">Summary</h2>
+            <p>&emsp;Detail oriented and highly adaptable IT specialist with 4+ years of experience in developing, testing and deploying software. Have comprehensive knowledge of Devops and full stack development</p>
+        </article>
+        <article id="education">
+            <h2 class="underline">Education</h2>
+
+            <ul>
+                <li>M.S. Software Engineering , The University of Texas at Dallas.</li>
+                <li>BTech., Electronics and communication Engineering, Guru Gobind Singh Indrapastha University, Delhi.</li>
+            </ul>
+        </article>
+        <article id="skills">
+            <h2 class="underline">Area Of Expertise</h2>
+            <ol>
+                <li>Programming Languages: Java, Python, C</li>
+                <li>Web Technologies: HTML, CSS, Javascript, Jquery</li>
+                <li>Frameworks: Spring, Vue JS, Express, node</li>
+                <li>Datastores: MySQL,Mongo</li>
+                <li>Strong knowledge and experience in Agile Project Management</li>
+            </ol>
+        </article>
+
+        <article id="experience">
+            <h2 class="underline">Work Experience</h2>
+            <ul>
+                <li id="current" class="company">Software Developer Intern, Line Drive(Plano) (Sept 2018-current)</li>
+                <ul>
+                    <li>Developing an application that is backed by node server and MySql. The web client leverages VueJS and responsive web design for desktop, mobile devices and tablets.</li>
+                    <li>Setup the project infrastructure for continuous development using AWS.</li>
+                </ul>
+                <li class="company">Application Developer, Syscom Corporation, NOIDA, India ( April 2015 – June 2017)</li>
+                <ul>
+                    <li>Involved in Development and maintenance of testing framework to test Smart Card OS functionality over the card.</li>
+                    <li>Was Responsible for handling CRs as per business request(Worked as a team lead)</li>
+                    <li>Testing Framework developed was able to reduce both cost and time frame of functional testing.</li>
+                    <li>Developed an automated integration and testing system using python and Jenkins. The system was responsible for automatic triggering of software build on daily basis and testing on latest software build.</li>
+                    <li>System was able to save manpower invested in testing by 70%.</li>
+                </ul>
+                <li class="company">Software Developer, Chennai, India( Jun 2013 – April 2015 )</li>
+                <ul>
+                    <li>Involved in development of multilingual support for user interface of a medical embedded device using KwikPeg Graphical User Interface libraries.</li>
+                </ul>
+            </ul>
+        </article>
+        <article id="courses">
+            <h2 class="underline">My Courses</h2>
+            <table id="table_course">
+                <thead>
+                    <th>Course Name</th>
+                    <th>Semester</th>
+                    <th>Year</th>
+                </thead>
+                <tr>
+                    <td>Data Structures and Algorithms</td>
+                    <td>Fall</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Discreet Structure</td>
+                    <td>Fall</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Object Oriented Software Engineering</td>
+                    <td>Fall</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Advanced Requirement Engineering</td>
+                    <td>Spring</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Database Design</td>
+                    <td>Spring</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Advanced Software Testing and Validation</td>
+                    <td>Spring</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Data Structure Algorithm and Analysis</td>
+                    <td>Summer</td>
+                    <td>2018</td>
+                </tr>
+                <tr id="current">
+                    <td>Advance Software Architecture and Design</td>
+                    <td>Fall</td>
+                    <td>2018</td>
+                </tr>
+                <tr id="current">
+                    <td>Web Programming Languages</td>
+                    <td>Fall</td>
+                    <td>2018</td>
+                </tr>
+                <tr id="current">
+                    <td>Machine Learning</td>
+                    <td>Fall</td>
+                    <td>2018</td>
+                </tr>
+            </table>
+        </article>
+        <article id="Interests">
+            <h2 class="underline">My Interests</h2>
+            <div style="width:300px" id="interests" class="container">
+
+                <img style="width:100%" src="img/interests.jpg" alt="Interests" usemap="#interestsmap">
+                <p>Click on Images</p>
+                <map name="interestsmap">
+                    <area target="_blank" alt="Coding" title="Coding" href="https://github.com/jaggiaman" coords="0,0,154,114" shape="rect">
+                    <area target="_blank" alt="Reading" title="Reading" href="https://www.kobo.com/" coords="153,1,299,114" shape="rect">
+                    <area target="_blank" alt="Travel" title="Travel" href="https://www.danflyingsolo.com/" coords="154,223,0,116" shape="rect">
+                    <area target="_blank" alt="Photography" title="Photography" href="http://www.johnpaulpietrus.com/" coords="156,116,298,223" shape="rect">
+                </map>
+            </div>
+        </article>
+        <div id="Form_button">
+            <button class="button" id="fadein">Fade In</button>
+            <button class="button" id="fadeout">Fade Out</button>
+            <button class="button" id="fadeto">Fade To</button>
+            <button class="button" id="fadetoggle">Fade Toggle</button>
+        </div>
+    </section>
+    <h2 class="underline">Let's Meet</h2>
+    <section id="Contact">
+        <div class="container" id="contactme">
+            <form action="mailto:axs170033@utdallas.edu" method="GET">
+                <table class="contact_me" width="100%">
+                    <col width="10%">
+                        <col width="60%">
+                            <tr>
+                                <td valign="middle" align="left">
+                                    <label for="fname">Name</label>
+                                </td>
+                                <td>
+                                    <input class="input_style" type="text" id="fname" name="firstname" placeholder="Full Name" required="true">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">
+                                    <label for="email">Email</label>
+                                </td>
+                                <td>
+                                    <input class="input_style" type="email" name="email" placeholder="Email" id="email" class="focus" autocomplete="off" required="true">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">
+                                    <label for="telep">Mobile</label>
+                                </td>
+                                <td>
+                                    <input class="input_style" input type='tel' pattern='[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{4}' (Format: +1(999)999-9999) name="tel" placeholder="+1(999)999-9999" id="telp" class="focus" autocomplete="off" required="true">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="left">
+                                    <label for="gender">Gender</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="gender" id="gender" class="genderM" value="Male" required="true">Male &nbsp;
+                                    <input type="radio" id="gender" name="gender" class="genderF" value="Female" required="true">Female &nbsp;
+                                    <input type="radio" id="gender" name="gender" class="genderN" value="other" required="true">Do not wish to specify
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input style="margin-bottom:16px" type="checkbox" name="agree" id="agree" class="agree" required="true">I agree that the information provided above is correct.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input class="button" type="submit" value="Submit">
+                                    <button id="reset" class="button" type="reset" name="reset">Reset</button>
+                                </td>
+                            </tr>
+                </table>
+            </form>
+        </div>
+        <div id="Form_button">
+            <button class="button" onclick="hide()">Hide Form</button>
+            <button class="button" onclick="show()">Show Form</button>
+            <button class="button" onclick="toggle()">Toggle</button>
+        </div>
+        <div class="container" id="Chain">
+            <div id="b" style="background-color: black; position: relative;width: 100px; height: 50px;"></div>
+            <div id="Animate" style="background-color: grey;width: 100px; height: 50px;">Animate</div>
+            <input type="text" id="keypress" placeholder="Enter input to start fading">
+            <input type="text" id="keydown" placeholder="Enter input to start Animation">
+        </div>
+    </section>
+    <footer>
+        <p>Posted by: Amandeep Singh</p>
+        <p>Contact information: <a href="mailto:axs170032@utdallas.edu">axs170032@utdallas.edu</a>.</p>
+    </footer>
+</body>
+
+</html>
